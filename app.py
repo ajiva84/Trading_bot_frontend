@@ -50,6 +50,13 @@ hide_streamlit_style = """
                 padding:5px;
                 top:3px;
             }
+            input.st-c0 {
+            color: black
+            }
+
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
+           # .st-fh .st-c0.st-bz {{
+            # color:blue;
+            # }}
